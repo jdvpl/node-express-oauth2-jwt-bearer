@@ -1,0 +1,34 @@
+{
+  "name": "express-oauth2-jwt-bearer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdvpl/node-express-oauth2-jwt-bearer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdvpl/node-express-oauth2-jwt-bearer/issues"
+  },
+  "homepage": "https://github.com/jdvpl/node-express-oauth2-jwt-bearer#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-jwt": "^6.0.0",
+    "express-jwt-authz": "^2.4.1",
+    "express-oauth2-jwt-bearer": "^1.1.0",
+    "jwks-rsa": "^2.1.4"
+  }
+}
